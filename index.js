@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Packages needed 
 const { writeFile } = require("fs").promises;
 const inquirer = require("inquirer");
 const markdown = require("./generateMarkdown");
-// TODO: Create an array of questions for user input
+// Array of questions used for the README 
 const questions = [
   {
     type: "input",
