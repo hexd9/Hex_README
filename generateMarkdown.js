@@ -29,6 +29,10 @@ ${data.instalaltion}
 
 ${data.usage}
 
+## Credits
+
+${data.credits}
+
 ## License
 
 ${data.license}

@@ -26,27 +26,32 @@ undefined
 6. Search History is saved under local storage.
 
 
+
+## Credits
+
+Weather API: https://openweathermap.org/api
+
 ## License
 
 MIT
 
 ## Contributing
 
-
+Via email inquiry
 
 ## Test
 
-
+Testing file now.
 
 ## Questions
 
 ### GitHub
 
-
+hexd9 https://github.com/hexd9?tab=repositories
 
 ### Contact Information:
 
-
+test@gmail.com
 
 Contact information: 
 testemail@bootcamp.com
