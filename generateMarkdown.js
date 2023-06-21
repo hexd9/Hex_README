@@ -1,9 +1,7 @@
 // License Badge Function
 function renderLicenseBadge(license) {}
 
-
 function renderLicenseLink(license) {}
-
 
 function renderLicenseSection(license) {}
 
@@ -45,7 +43,17 @@ ${data.test}
 
 ## Questions
 
-${data.questions}
+### GitHub
+
+${data.gitHub}
+
+### Contact Information:
+
+${data.email}
+
+Contact information: 
+testemail@bootcamp.com
+805.123.4567
 `;
 }
 

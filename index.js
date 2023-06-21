@@ -1,8 +1,8 @@
-// Packages needed 
+// Packages needed
 const { writeFile } = require("fs").promises;
 const inquirer = require("inquirer");
 const markdown = require("./generateMarkdown");
-// Array of questions used for the README 
+// Array of questions used for the README
 const questions = [
   {
     type: "input",
@@ -21,9 +21,14 @@ const questions = [
     message: "What are the steps required to install your project?",
   },
   {
-    type: "input",
+    type: "editor",
     name: "usage",
     message: "Provide instructions and examples for use.",
+  },
+  {
+    type: "input",
+    name: "credits",
+    message: "Collaborators, third-party assets: ",
   },
   {
     type: "list",
@@ -43,8 +48,13 @@ const questions = [
   },
   {
     type: "input",
-    name: "questions",
-    message: "Please enter any questions.",
+    name: "gitHub",
+    message: "GitHub Username and link?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Email address?",
   },
 ];
 
