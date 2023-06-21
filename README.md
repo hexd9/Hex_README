@@ -1,4 +1,4 @@
-![license](https://img.shields.io/badge/license-MIT-brightgreen)
+![license](https://img.shields.io/badge/license-GNU-brightgreen)
 # test
 
 ## Description
@@ -22,7 +22,7 @@ test
 
 ## License
 
-MIT
+GNU
 
 ## Contributing
 

@@ -48,12 +48,12 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
+// Write the Readme contents to a file
 async function writeToFile(fileName, data) {
   await writeFile(fileName, data);
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 async function init() {
   const responses = await inquirer.prompt(questions);
   const readMEText = markdown(responses);
